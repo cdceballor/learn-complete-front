@@ -1,0 +1,22 @@
+JavaScript:
+Browser based programming language
+Is also called ES6 or ES7 (EcmaScript)
+
+With js you can manipulated the body of the app
+
+JavaScript execute the code line by line 'cause only work with one thread!
+The data type are:
+    Integers
+    Floating point
+    String
+    Boolean
+    Array
+    Date
+    Objects
+--------------------------------------------------------- BABEL:----------------------------------------------
+Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments. Here are the main things Babel can do for you:
+
+Transform syntax
+Polyfill features that are missing in your target environment (through a third-party polyfill such as core-js)
+Source code transformations (codemods)
+And more! (check out these videos for inspiration)

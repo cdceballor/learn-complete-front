@@ -1,0 +1,54 @@
+body{
+    background-color:beige;
+}
+
+/* ANIMATION TO COFFEE IMG USING ANIMATION CSS */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations */
+.coffee5{
+    width:20%;
+    height:auto;
+    margin:auto;
+    border:3px solid rgb(138, 5, 5);
+    border-radius :10px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+.coffee5:hover{
+    width:24%;
+}
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+  
+    75% {
+      margin-left: 25%;
+      width: 50%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 20%;
+    }
+  }
+
+/* USING FUNCTIONS TO REDUCE THE CSS CODE */
+:where(.welcome-text, .text-back):hover {
+    color:rgb(105, 31, 13);
+}
+ .btn-return{
+    background-color:rgb(138, 5, 5);
+    color:white;
+    border-radius:10px;
+    padding:10px;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:10px;
+    margin-left:10px;
+    cursor:pointer;
+}
+.btn-return:hover{
+    background-color: black;
+}

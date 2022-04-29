@@ -1,0 +1,13 @@
+In this section, we worked with different concepts of html, using html 5 and understanding the notation and tags by the language.
+We see different kinds of tags as:
+-> <title></title> To define the title in the web side
+-> <p></p> To define paragraphs
+-> <hr> To create horizontal lines
+-> <a href="http://"></a> To create links between pages
+-> <br> To jump lines
+-> <table></table> To define tables
+-> <th></th> That are the table headers
+-> <video></video> To multimedia content
+-> <iframe></iframe> To insert code by other page
+
+And we builded a simple form app with login, sign-in and a home page 

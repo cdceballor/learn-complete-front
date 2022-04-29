@@ -1,0 +1,44 @@
+We have 3 ways to work wit css in html:
+1) Internal:
+    Have the css styles in the same html tag (the worst way)
+    In the same html file we can add a tag called <style></style> and give the tag to add the styles, for example: 
+    <div> tag, but in the head tag
+        <style>
+            div{ whole div style inside here}
+        </style> 
+
+2) External:
+    We have other file where we have whole the style that we need and later we call the external css file with:
+        <link rel="stylesheet" href="address of the file"> this line goes in the head tag
+        The css file contain all the styles
+
+3) Box model:
+    Using all the styles as a box, use the padding, margin, and borders
+    |---------------------------------------------|
+    |  Margin                                     |           MARGIN: The margin is used to separate the elements from it's neighbors
+    |       ______________________________        |           BORDER: The limited of the padding, is the border of the size
+    |       | border                     |        |           PADDING: The dimension of the content
+    |       |     ________________       |        |           CONTENT: is what the user can see, the position where the content is
+    |       |     | padding       |      |        |
+    |       |     |    ------     |      |        |
+    |       |     |   |Conten|    |      |        |
+    |       |     |   |______|    |      |        |
+    |       |     |_______________|      |        |
+    |       |                            |        |
+    |       |____________________________|        |
+    |                                             |
+    |                                             |
+    |---------------------------------------------|
+
+Identifiers:
+class="a" -> .a{}
+id="a" -> #a{}
+name of the tag =div -> name of the tag div {}
+
+To represent something inside of something we use > 
+
+.a > .b {}                    |      <div className="a">
+                                        <div className="b"></div>
+                                    </div>
+
+https://developer.mozilla.org/en-US/docs/Web/CSS
