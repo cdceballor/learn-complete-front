@@ -1,0 +1,53 @@
+/*  We can create different types of background */
+
+
+/*  Background color = to the back, also works in elements like p and others */
+
+body {
+    background-color: red;
+}
+
+
+/*
+ Background image
+ Also we can add a property called repeat:
+ And we can move that
+ */
+
+body {
+    background-image: url("url image");
+    background-repeat: repeat-x;
+    /* x is the eje*/
+    background-position: right top;
+}
+
+
+/*
+background-attachment: fixed = to define if we want to move it with scroll or not 
+fixed: don't move
+scroll: move with the scroll
+*/
+
+body {
+    background-image: url("url image");
+    background-repeat: repeat-x;
+    /* x is the eje*/
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+
+/*
+Work with background could be difficult because have a lot of properties 
+We can use background only and add every property at the same line:
+The order is:
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+*/
+
+body {
+    background: #ffffff url("img_tree.png") no-repeat right top;
+}

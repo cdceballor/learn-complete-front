@@ -1,0 +1,20 @@
+/*  UNIVERSAL SELECTOR - affect all the html tags  */
+
+* {
+    text-align: center;
+    color: red;
+}
+
+
+/*
+    Also we can select a specific tag with a specific class 
+    In the next example we select all the p tag with header as a class name
+*/
+
+p.header {
+    text-align: center;
+    color: red;
+}
+
+
+/*  We have: id = #, class = . and the specific tag with the name */

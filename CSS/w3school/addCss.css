@@ -1,0 +1,24 @@
+/*
+    We have 3 ways to add css
+    1. In line
+    2. External file
+    3. Internal
+    */
+
+
+/*  In line */
+
+
+/* <h1 style="color:blue;text-align:center;">This is a heading</h1> */
+
+
+/*  External file: in the head tag in the file.html */
+
+
+/* <link rel="stylesheet" href="mystyle.css"> */
+
+
+/*  Internal */
+
+
+/*  <style> {Here the css code} </style> */

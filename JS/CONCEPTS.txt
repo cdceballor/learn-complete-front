@@ -21,5 +21,27 @@ Transform syntax
 Polyfill features that are missing in your target environment (through a third-party polyfill such as core-js)
 Source code transformations (codemods)
 And more! (check out these videos for inspiration)
+<<<<<<< HEAD
 --------------------------------------------------------- LOOPS:----------------------------------------------
 While: you can use while as a whatever programming language with the same syntax
+=======
+
+--------------------------------------------------------- JS:----------------------------------------------
+Define the function before tu used
+
+--------------------------------------------------------- DOM:----------------------------------------------
+Document Objects Models -> Everything inside a page, are the tags that contain the html file, for example
+the html as a header, the head and the body as a branches, later, the other tags as p, h1, title, etc.
+With DOM you can get the title text, set css, get names of tags, move image
+The DOM work as a nodes that we consider are the different tags and we have node relation between them.
+
+Element Node type: 
+    The Object has to be unique, normally we use document.getElementById("id") to call something with the id,
+    also we have other reserved words like ElementByName, etc
+
+Events:
+    We can add events with js inside HTML, click, mouse, whatever:
+    button -> <button alert("click");></button>
+    document -> document.addEventListener("click", myFunction, false)
+    element.event -> With a hardest way
+>>>>>>> 26b508a1ed07b02dd0b0c3f506517b0dd3323809
