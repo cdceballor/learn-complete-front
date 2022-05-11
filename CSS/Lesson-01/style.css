@@ -11,6 +11,6 @@
     border: 3px solid rebeccapurple;
     border-radius: 5px;
     box-shadow: 12px 12px 24px blue;
-
-
 }
+
+div div {color:red;}
