@@ -1,0 +1,58 @@
+/*  Borders and properties */
+
+/*  
+Border-style and properties: 
+We can create different types of borders using border-style and the properties.
+List: 
+
+dotted - Defines a dotted border
+dashed - Defines a dashed border
+solid - Defines a solid border
+double - Defines a double border
+groove - Defines a 3D grooved border. The effect depends on the border-color value
+ridge - Defines a 3D ridged border. The effect depends on the border-color value
+inset - Defines a 3D inset border. The effect depends on the border-color value
+outset - Defines a 3D outset border. The effect depends on the border-color value
+none - Defines no border
+hidden - Defines a hidden border
+
+We can use this to add different forms in the borders
+*/
+
+.p{
+    border-style: solid; /* border-style: dotted, dashed, solid, double, groove, ridge, inset, outset and other */ 
+    border-style: solid dotted double; 
+}
+
+/*  
+Border width: We specify the border width using border-width and the size (in px, pt, cm, em, etc)  
+Also works with the top, botton, left and right properties.
+ */
+
+ .p{
+    border-width: 20px; 
+    border-width: 20px 20px 20px 20px;
+}
+
+/*  
+Border color: To assign the color to the border, could be name, HEX, RGB, HSL or transparent 
+We can use different colors using the border-color property.
+*/
+.p{
+    border-color: red;
+    border-color: red green blue yellow; /* red_ top, green_ right, blue_ bottom and yellow_ left */
+}
+
+/* 
+Short way to used it
+We can select only one side
+*/
+.p{
+    border: 1px solid red; /* With all the properties */
+    border-left-style: dotted;
+}
+
+/* Border-radius: To create a radio in the border */
+.p{
+    border-radius: 20px;
+}

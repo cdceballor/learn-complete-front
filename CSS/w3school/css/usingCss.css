@@ -1,0 +1,66 @@
+/*  BACKGROUND COLOR */
+body {
+    background-color: beige;
+    margin:auto;
+}
+/***********************************************************************************************************************************/
+
+/* USING CSS IN H1 INSIDE OF A CLASS */
+.background-use h1{
+    color: red;
+    text-align: center;
+}
+.background-use p{
+    margin:30px;
+    color: black;
+}
+/***********************************************************************************************************************************/
+
+/*  CONVERTING THE PAGE WITH GRID */
+.background-group{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-gap: 20px;
+    justify-content: space-evenly;
+}
+/***********************************************************************************************************************************/
+
+/*  GIVING CSS TO P TAG INSIDE OF A CLASS */
+.background-group p {
+    font-weight: bolder;
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.background-group p:hover {
+    background-color: #b3b3b3;
+    font-size: 20px;
+}
+/***********************************************************************************************************************************/
+
+/*  EXAMPLES OF BACKGROUND */
+
+.background-with-color{
+    width: 200px;
+    height: 200px;
+    background-color: seagreen;
+}
+.background-with-image{
+    width: 200px;
+    height: 200px;
+    background-image: url("../../../coffe-shop/css/images/coffe1.webp");
+}
+.background-with-repeat{
+    width: 200px;
+    height: 200px;
+    background-image: url("../../../coffe-shop//css/images/coffe2.webp");
+    background-repeat: repeat-x;
+
+}
+.background-with-properties{
+    width: 200px;
+    height: 200px;
+    background: #ffffff url("../../../coffe-shop/css/images/coffe3.webp") no-repeat right top;
+}
+/***********************************************************************************************************************************/

@@ -1,0 +1,33 @@
+/*  MARGIN */
+/*  
+Is used to create space between elements, outside of any defined borders 
+Use margin (top, left, right, bottom)
+And use different kind of values like %, auto, length and inherit
+*/
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+
+  /* 
+  We have sort 
+  The order is: top, right, bottom, left, if have 3 values are top, right and bottom, if have 2, are top-bottom and left-right
+  */
+.p{
+    margin: 35px 35px 35px 35px; /* TOP RIGHT BOTTOM LEFT */
+    margin: 35px 35px 35px; /* TOP RIGHT BOTTOM */
+    margin: 35px 35px; /* TOP-BOTTOM LEFT-RIGHT */
+    margin: 35px; /* ALL */
+}
+
+/* Auto value is to add center margin that respect the tag that contain it */
+.p{
+    margin: auto; /* If the container is center, the margin also */
+}
+
+/* Inherent value is that don't depend of an external value */
+.p{
+    margin: inherit; /* If the container is center, the margin in p doesn't matters */
+}
