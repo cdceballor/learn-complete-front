@@ -6,7 +6,7 @@ body {
 /***********************************************************************************************************************************/
 
 /* USING CSS IN H1 INSIDE OF A CLASS */
-.background-use h1{
+.background-use, .border-use h1{
     color: red;
     text-align: center;
 }
@@ -64,3 +64,45 @@ body {
     background: #ffffff url("../../../coffe-shop/css/images/coffe3.webp") no-repeat right top;
 }
 /***********************************************************************************************************************************/
+                                                    /* BORDER */
+/***********************************************************************************************************************************/
+
+.border-group{
+    display: grid;
+    grid-template-columns: repeat(5, 300px);
+    grid-gap: 20px;
+    justify-content: space-evenly;   
+}
+/***********************************************************************************************************************************/
+
+/*  BORDER STYLES */
+.border-dotted{
+    border: 5px dotted seagreen;
+}
+.border-dashed{
+    border: 5px dashed seagreen;
+}
+.border-solid{
+    border: 5px solid seagreen;
+}
+.border-double{
+    border: 5px double seagreen;
+}
+.border-groove{
+    border: 5px groove seagreen;
+}
+.border-ridge{
+    border: 5px ridge seagreen;
+}
+.border-inset{
+    border: 5px inset seagreen;
+}
+.border-outset{
+    border: 5px outset seagreen;
+}
+.border-none{
+    border: 5px none seagreen;
+}
+.border-hidden{
+    border: 5px hidden seagreen;
+}
