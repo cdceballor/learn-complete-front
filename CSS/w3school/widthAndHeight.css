@@ -1,0 +1,18 @@
+/*  USING WIDTH AND HEIGHT */
+/* 
+We normally use %, length, auto, initial and inherit values to define the values 
+*/
+/*     
+Also use the max-width to define the maximum width of the element.
+ */
+ div {
+    height: 100px;
+    width: 500px;
+    background-color: powderblue;
+  }
+  
+ div {
+    max-width: 500px;
+    height: 100px;
+    background-color: powderblue;
+  }

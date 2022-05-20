@@ -6,7 +6,7 @@ body {
 /***********************************************************************************************************************************/
 
 /* USING CSS IN H1 INSIDE OF A CLASS */
-.background-use, .border-use h1{
+h1{
     color: red;
     text-align: center;
 }
@@ -105,4 +105,136 @@ body {
 }
 .border-hidden{
     border: 5px hidden seagreen;
+}
+/***********************************************************************************************************************************/
+/******************************************************* PADDING *******************************************************************/
+
+/* PADDING GROUP */
+.padding-group {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-gap: 20px;
+    justify-content: space-evenly;
+}
+.padding-top{
+    padding-top: 20px;
+    background-color: #b3b3b3;
+}
+.padding-bottom{
+    padding-bottom: 20px;
+    background-color: #f05555;
+}
+.padding-left{
+    padding-left: 20px;
+    background-color: #dcae3c;
+}
+.padding-right{
+    padding-right: 20px;
+    background-color: #5dec31;
+}
+.padding-all{
+    padding: 20px;
+    background-color: #33d6d8;
+}
+.padding-horizontal{
+    padding: 20px 20px;
+    background-color: #2160e7;
+}
+.padding-vertical{
+    padding: 20px 20px;
+    background-color: #e941e9;
+}
+.padding-none{
+    padding: 0px;
+    background-color: #d32f32;
+}
+/***********************************************************************************************************************************/
+/**************************************************** WIDTH & HEIGHT ***************************************************************/
+
+.wandh-group{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.wandh-width{
+    width: 200px;
+    height: 100px;
+    background-color: #b3b3b3;
+}
+.wandh-height{
+    height: 200px;
+    background-color: #f05555;
+}
+.wandh-max-width{
+    max-width: 200px;
+    height: 100px;
+    background-color: #dcae3c;
+}
+.wandh-max-height{
+    max-height: 200px;
+    background-color: #5dec31;
+}
+.wandh-min-width{
+    min-width: 200px;
+    height: 100px;
+    background-color: #33d6d8;
+}
+.wandh-min-height{
+    min-height: 200px;
+    background-color: #2160e7;
+}
+
+/***********************************************************************************************************************************/
+
+
+/************************************************************ TEXT ***************************************************************/
+
+.text-group{
+    display: grid;
+    grid-template-columns: repeat(5, 300px);
+    grid-gap: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.text-decoration{
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}
+.text-align{
+    text-align: center;
+    font-size: medium;
+}
+.text-transform{
+    text-transform: uppercase;
+    font-style: oblique;
+}
+.text-line-height{
+    line-height: 2;
+    font-display: swap;
+}
+.text-letter-spacing{
+    letter-spacing: 2px;
+    font-stretch: semi-condensed;
+}
+.text-word-spacing{
+    word-spacing: 2px;
+    font-variant-ligatures: no-historical-ligatures;
+}
+.text-white-space{
+    white-space: pre-wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-overflow{
+    overflow: scroll;
+    font-weight: bold;
+}
+.text-overflow-x{
+    overflow-x: scroll;
+    font-variant: small-caps;
+}
+.text-overflow-y{
+    overflow-y: scroll;
 }

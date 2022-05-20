@@ -1,0 +1,58 @@
+ /* TEXT PROPERTIES  */
+                /* COLOR */
+ /* Define the color with the color keyword.*/
+ h1{
+     background-color:aliceblue;
+     color:red;
+ }
+
+ /* Define the position of the text with some keywords: */
+ /* 
+text-align
+text-align-last
+direction
+unicode-bidi
+vertical-align
+ */
+p{text-align:center;}
+p{text-align-last:center;}
+p{direction:center;}
+p{unicode-bidi:center;}
+p{vertical-align:center;}
+
+ /* Decorations are to show the text with some styles like line-down */
+ p{text-decoration:underline;}
+ p{text-decoration:overline;}
+ p{text-decoration:line-through;}
+ p{text-decoration:underline;}
+ p{text-decoration:overline underline;}
+
+ p{
+     text-decoration-color: red;
+     text-decoration-line: red;
+}
+
+/* Define some transformation in the text: */
+p{text-transform: capitalize;}
+p{text-transform: lowercase;}
+p{text-transform: uppercase;}
+
+/*  Also we have different ways to define a space */
+/* 
+text-indent
+letter-spacing
+line-height
+word-spacing
+white-space
+ */
+
+ p{text-indent: 4px;}
+ p{letter-spacing: 4px;}
+ p{line-height: 4px;}
+ p{word-spacing: 4px;}
+ p{white-space: 4px;}
+
+ /* We have shadow in the texts */
+
+p{text-shadow: 1px 1px 1px red;}
+

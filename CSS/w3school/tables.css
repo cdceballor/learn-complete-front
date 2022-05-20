@@ -1,0 +1,42 @@
+/* TABLE */
+
+/* Table border */
+table, th, td { /* th -> table head, td -> table body */
+    border: 1px solid;
+  }
+
+/* Table width */
+table {width: 100%;}
+
+/* The border-collapse property sets whether the table borders should be collapsed into a single border: */
+table {
+    border-collapse: collapse;
+  }
+
+/* We can separate the th with the table body */
+table { 
+    width: 100%;
+  }
+  th {
+    height: 70px;
+  }
+/* At the same way, we can work with td */
+td {text-align: center;}
+
+/* Adding padding and a position*/
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Also we can add hover function to styled*/
+tr:hover {background-color: coral;}
+
+/* For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows: */
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+/* Responsive */
+/* overflow-x:auto; */

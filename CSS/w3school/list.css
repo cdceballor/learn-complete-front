@@ -1,0 +1,20 @@
+/*  We have unordered list (ul) or ordered list (ol) */
+/* 
+Also we have some properties: 
+  list-style-type: circle; -> circle type
+    list-style-image: url("image"); -> img type
+    list-style-position: inside / outside; -> inside or outside
+*/
+
+/*  We can add color to the lists: */
+ol li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+ol {
+    background: #ff9999;
+    padding: 20px;
+}
