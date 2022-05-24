@@ -1,0 +1,6 @@
+/* The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky). */
+/* Static: by default, is the normal way to use the html tags */
+/* relative: We can put it in whatever place on the screen, depend of the other elements */
+/* fixed: The object always stay in the same position no matters the scroll */
+/* absolute: Can overlap other elements 'cause don't have a real position, depend of the page */
+/* sticky: It's positioned by the scroll of the user, doesn't hide when the user scroll it */
