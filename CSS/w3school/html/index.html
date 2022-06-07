@@ -86,13 +86,17 @@
             <p class="wandh-width">width - Defines the width of an element <strong>width:200px</strong></p>
             <p class="wandh-height">height - Defines the height of an element <strong>height:200px</strong></p>
             <p class="wandh-max-width">max-width - Defines the maximum width of an element
-                <strong>max-width:200px</strong></p>
+                <strong>max-width:200px</strong>
+            </p>
             <p class="wandh-max-height">max-height - Defines the maximum height of an element
-                <strong>max-height:200px</strong></p>
+                <strong>max-height:200px</strong>
+            </p>
             <p class="wandh-min-width">min-width - Defines the minimum width of an element
-                <strong>min-width:200px</strong></p>
+                <strong>min-width:200px</strong>
+            </p>
             <p class="wandh-min-height">min-height - Defines the minimum height of an element
-                <strong>min-height:200px</strong></p>
+                <strong>min-height:200px</strong>
+            </p>
         </div>
     </article>
     <hr>
@@ -103,23 +107,31 @@
         </center>
         <div class="text-group">
             <p class="text-decoration">decoration - Defines the decoration of an element
-                <strong>decoration:underline</strong></p>
+                <strong>decoration:underline</strong>
+            </p>
             <p class="text-align">align - Defines the alignment of an element <strong>align:center</strong></p>
             <p class="text-transform">transform - Defines the transformation of an element
-                <strong>transform:uppercase</strong></p>
+                <strong>transform:uppercase</strong>
+            </p>
             <p class="text-line-height">line-height - Defines the line height of an element
-                <strong>line-height:2</strong></p>
+                <strong>line-height:2</strong>
+            </p>
             <p class="text-letter-spacing">letter-spacing - Defines the letter spacing of an element
-                <strong>letter-spacing:2</strong></p>
+                <strong>letter-spacing:2</strong>
+            </p>
             <p class="text-word-spacing">word-spacing - Defines the word spacing of an element
-                <strong>word-spacing:2</strong></p>
+                <strong>word-spacing:2</strong>
+            </p>
             <p class="text-white-space">white-space - Defines the white space of an element
-                <strong>white-space:pre-wrap</strong></p>
+                <strong>white-space:pre-wrap</strong>
+            </p>
             <p class="text-overflow">overflow - Defines the overflow of an element <strong>overflow:hidden</strong></p>
             <p class="text-overflow-x">overflow-x - Defines the overflow-x of an element
-                <strong>overflow-x:hidden</strong></p>
+                <strong>overflow-x:hidden</strong>
+            </p>
             <p class="text-overflow-y">overflow-y - Defines the overflow-y of an element
-                <strong>overflow-y:hidden</strong></p>
+                <strong>overflow-y:hidden</strong>
+            </p>
         </div>
     </article>
     <hr>
@@ -171,24 +183,83 @@
             </div>
     </article>
     <hr>
-
     <article>
         <h1>Without Clearfix</h1>
 
-        <p>This image is floated to the right. It is also taller than the element containing it, so it overflows outside of its container:</p>
+        <p>This image is floated to the right. It is also taller than the element containing it, so it overflows outside
+            of its container:</p>
 
         <div class="clear-div">
-            <img class="img1" src="../img/dog.webp" alt="Pineapple" width="170" height="170"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+            <img class="img1" src="../img/dog.webp" alt="Pineapple" width="170" height="170"> Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit. Phasellus imperdiet...
         </div>
 
         <h1 style="clear:right">With New Modern Clearfix</h1>
         <p>Add the clearfix hack to the containing element, to fix this problem:</p>
 
         <div class="clear-div clearfix-2">
-            <img class="img2" src="../img/dog.webp" alt="Pineapple" width="170" height="170"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+            <img class="img2" src="../img/dog.webp" alt="Pineapple" width="170" height="170"> Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit. Phasellus imperdiet...
         </div>
     </article>
     <hr>
+    <article class="combinator-use">
+        <h1>Combinators</h1>
+        <center>
+            <p><strong> Is used to merge or join classes or styles depending of the needed </strong></p>
+        </center>
+        <div class="combinator-container">
+            <div>
+                <p>The descendant selector matches all elements that are descendants of a specified element.</p>
+                <div class="descendant">
+                    <p>Paragraph 1 in the div with style descendent.</p>
+                    <p>Paragraph 2 in the div with the style descendent.</p>
+                    <section>
+                        <p>Paragraph 3 in the div with the style descendent.</p>
+                    </section>
+                </div>
+                <p>Paragraph 4. Not in a div.</p>
+                <p>Paragraph 5. Not in a div.</p>
+            </div>
+            <div>
+                <p>The child selector matches all elements that are inside of the class but are CHILD.</p>
+                <div class="child">
+                    <p>Paragraph 1 in the div with style child.</p>
+                    <p>Paragraph 2 in the div with the style child.</p>
+                    <section>
+                        <p>Paragraph 3 in the div with the style child doesn't work because there is a section that contain the p tag, so p is child of section and not to the div.</p>
+                    </section>
+                </div>
+                <p>Paragraph 4. Not in a div.</p>
+                <p>Paragraph 5. Not in a div.</p>
+            </div>
+            <div>
+                <p>The adjacent selector give the style to the next element.</p>
+                <div class="adjacent">
+                    <p>Paragraph 1 doesn't have style.</p>
+                    <p>Paragraph 2 in the div doesn't have style.</p>
+                    <section>
+                        <p>Paragraph 3 in the div doesn't have style.</p>
+                    </section>
+                </div>
+                <p>Paragraph 4. Not in a div but is the next tag to the div.</p>
+                <p>Paragraph 5. Not in a div.</p>
+            </div>
+            <div>
+                <p>The general selector give the styles to all the next tags defining the base as a first tag.</p>
+                <div class="general">
+                    <p>Paragraph 1 doesn't have style.</p>
+                    <p>Paragraph 2 in the div doesn't have style.</p>
+                    <section>
+                        <p>Paragraph 3 in the div doesn't have style.</p>
+                    </section>
+                </div>
+                <p>Paragraph 4. Not in a div but is the next tag to the div.</p>
+                <p>Paragraph 5. Not in a div but is the next tag to the div.</p>
+            </div>
+        </div>
+        <hr>
+    </article>
     </body>
 
 </html>

@@ -431,9 +431,7 @@ h1 {
     display: table;
 }
 
-
 /* *************************************************** */
-
 
 /* ADD CLEARFIX TO THE DIV */
 
@@ -456,5 +454,30 @@ h1 {
     display: table;
 }
 
-
 /* *************************************************** */
+
+.combinator-container {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-gap: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+}
+
+.descendant p {
+    background-color: yellow;
+}
+
+.child > p {
+    background-color: yellow;
+}
+
+.adjacent + p {
+    background-color: yellow;
+}
+
+.general ~ p {
+    background-color: yellow;
+}
+

@@ -1,0 +1,27 @@
+/*  Use the combinators to use some classes or ids in the code, is to select 1 or more */
+/* 
+descendant selector (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling selector (~) 
+*/
+
+/* descendant selector (space) -> Is used to give style to the tags that are inside to the main tag */
+div p{
+    color:red; /* Whole tag p that are inside of the div */
+}
+
+/* child selector (>) -> All the tags that  */
+div > p{
+    color:red; /* All the tags that are inside of the div but if there are other tags that contain the p, doesn't work */
+}
+
+/* Adjacent sibling (+) -> is used to select an element that is directly after another specific element, the next element */
+div + p{
+    color:red; /* The next element */
+}
+
+/* General sibling (~) -> next sibling of a specified element */
+div ~ p{
+    color:red; /* All the tags that are inside of the div but if there are other tags that contain the p, doesn't work */
+}
