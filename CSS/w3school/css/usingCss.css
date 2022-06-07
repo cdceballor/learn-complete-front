@@ -1,197 +1,261 @@
 /*  BACKGROUND COLOR */
+
 body {
     background-color: beige;
-    margin:auto;
+    margin: auto;
 }
+
+
 /***********************************************************************************************************************************/
 
+
 /* USING CSS IN H1 INSIDE OF A CLASS */
-h1{
+
+h1 {
     color: red;
     text-align: center;
 }
-.background-use p{
-    margin:30px;
+
+.background-use p {
+    margin: 30px;
     color: black;
 }
+
+
 /***********************************************************************************************************************************/
 
+
 /*  CONVERTING THE PAGE WITH GRID */
-.background-group{
+
+.background-group {
     display: grid;
     grid-template-columns: repeat(4, 300px);
     grid-gap: 20px;
     justify-content: space-evenly;
 }
+
+
 /***********************************************************************************************************************************/
 
+
 /*  GIVING CSS TO P TAG INSIDE OF A CLASS */
+
 .background-group p {
     font-weight: bolder;
-    color:white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
     text-align: center;
 }
+
 .background-group p:hover {
     background-color: #b3b3b3;
     font-size: 20px;
 }
+
+
 /***********************************************************************************************************************************/
+
 
 /*  EXAMPLES OF BACKGROUND */
 
-.background-with-color{
+.background-with-color {
     width: 200px;
     height: 200px;
     background-color: seagreen;
 }
-.background-with-image{
+
+.background-with-image {
     width: 200px;
     height: 200px;
     background-image: url("../../../coffe-shop/css/images/coffe1.webp");
 }
-.background-with-repeat{
+
+.background-with-repeat {
     width: 200px;
     height: 200px;
     background-image: url("../../../coffe-shop//css/images/coffe2.webp");
     background-repeat: repeat-x;
-
 }
-.background-with-properties{
+
+.background-with-properties {
     width: 200px;
     height: 200px;
     background: #ffffff url("../../../coffe-shop/css/images/coffe3.webp") no-repeat right top;
 }
-/***********************************************************************************************************************************/
-                                                    /* BORDER */
+
+
 /***********************************************************************************************************************************/
 
-.border-group{
+
+/* BORDER */
+
+
+/***********************************************************************************************************************************/
+
+.border-group {
     display: grid;
     grid-template-columns: repeat(5, 300px);
     grid-gap: 20px;
-    justify-content: space-evenly;   
+    justify-content: space-evenly;
 }
+
+
 /***********************************************************************************************************************************/
+
 
 /*  BORDER STYLES */
-.border-dotted{
+
+.border-dotted {
     border: 5px dotted seagreen;
 }
-.border-dashed{
+
+.border-dashed {
     border: 5px dashed seagreen;
 }
-.border-solid{
+
+.border-solid {
     border: 5px solid seagreen;
 }
-.border-double{
+
+.border-double {
     border: 5px double seagreen;
 }
-.border-groove{
+
+.border-groove {
     border: 5px groove seagreen;
 }
-.border-ridge{
+
+.border-ridge {
     border: 5px ridge seagreen;
 }
-.border-inset{
+
+.border-inset {
     border: 5px inset seagreen;
 }
-.border-outset{
+
+.border-outset {
     border: 5px outset seagreen;
 }
-.border-none{
+
+.border-none {
     border: 5px none seagreen;
 }
-.border-hidden{
+
+.border-hidden {
     border: 5px hidden seagreen;
 }
+
+
 /***********************************************************************************************************************************/
+
+
 /******************************************************* PADDING *******************************************************************/
 
+
 /* PADDING GROUP */
+
 .padding-group {
     display: grid;
     grid-template-columns: repeat(4, 300px);
     grid-gap: 20px;
     justify-content: space-evenly;
 }
-.padding-top{
+
+.padding-top {
     padding-top: 20px;
     background-color: #b3b3b3;
 }
-.padding-bottom{
+
+.padding-bottom {
     padding-bottom: 20px;
     background-color: #f05555;
 }
-.padding-left{
+
+.padding-left {
     padding-left: 20px;
     background-color: #dcae3c;
 }
-.padding-right{
+
+.padding-right {
     padding-right: 20px;
     background-color: #5dec31;
 }
-.padding-all{
+
+.padding-all {
     padding: 20px;
     background-color: #33d6d8;
 }
-.padding-horizontal{
+
+.padding-horizontal {
     padding: 20px 20px;
     background-color: #2160e7;
 }
-.padding-vertical{
+
+.padding-vertical {
     padding: 20px 20px;
     background-color: #e941e9;
 }
-.padding-none{
+
+.padding-none {
     padding: 0px;
     background-color: #d32f32;
 }
+
+
 /***********************************************************************************************************************************/
+
+
 /**************************************************** WIDTH & HEIGHT ***************************************************************/
 
-.wandh-group{
+.wandh-group {
     display: grid;
     grid-template-columns: repeat(3, 300px);
     grid-gap: 20px;
     justify-content: space-evenly;
     text-align: center;
 }
-.wandh-width{
+
+.wandh-width {
     width: 200px;
     height: 100px;
     background-color: #b3b3b3;
 }
-.wandh-height{
+
+.wandh-height {
     height: 200px;
     background-color: #f05555;
 }
-.wandh-max-width{
+
+.wandh-max-width {
     max-width: 200px;
     height: 100px;
     background-color: #dcae3c;
 }
-.wandh-max-height{
+
+.wandh-max-height {
     max-height: 200px;
     background-color: #5dec31;
 }
-.wandh-min-width{
+
+.wandh-min-width {
     min-width: 200px;
     height: 100px;
     background-color: #33d6d8;
 }
-.wandh-min-height{
+
+.wandh-min-height {
     min-height: 200px;
     background-color: #2160e7;
 }
+
 
 /***********************************************************************************************************************************/
 
 
 /************************************************************ TEXT ***************************************************************/
 
-.text-group{
+.text-group {
     display: grid;
     grid-template-columns: repeat(5, 300px);
     grid-gap: 20px;
@@ -199,48 +263,59 @@ h1{
     text-align: center;
 }
 
-.text-decoration{
+.text-decoration {
     text-decoration: underline;
     font-family: 'Courier New', Courier, monospace;
 }
-.text-align{
+
+.text-align {
     text-align: center;
     font-size: medium;
 }
-.text-transform{
+
+.text-transform {
     text-transform: uppercase;
     font-style: oblique;
 }
-.text-line-height{
+
+.text-line-height {
     line-height: 2;
     font-display: swap;
 }
-.text-letter-spacing{
+
+.text-letter-spacing {
     letter-spacing: 2px;
     font-stretch: semi-condensed;
 }
-.text-word-spacing{
+
+.text-word-spacing {
     word-spacing: 2px;
     font-variant-ligatures: no-historical-ligatures;
 }
-.text-white-space{
+
+.text-white-space {
     white-space: pre-wrap;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.text-overflow{
+
+.text-overflow {
     overflow: scroll;
     font-weight: bold;
 }
-.text-overflow-x{
+
+.text-overflow-x {
     overflow-x: scroll;
     font-variant: small-caps;
 }
-.text-overflow-y{
+
+.text-overflow-y {
     overflow-y: scroll;
 }
 
+
 /* **************************************************** CARD DISPLAY EXAMPLE **************************************************** */
-.card-display{
+
+.card-display {
     display: grid;
     grid-template-columns: repeat(3, 300px);
     grid-gap: 20px;
@@ -250,14 +325,18 @@ h1{
     height: 400px;
 }
 
-.card-none, .card-hidden, .card-reset{
+.card-none,
+.card-hidden,
+.card-reset {
     background-color: rgb(127, 127, 240);
     border-radius: 5px;
-    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
 
-.text-none, .text-hidden, .text-reset{
+.text-none,
+.text-hidden,
+.text-reset {
     color: black;
     font-size: x-large;
     font-family: 'Courier New', Courier, monospace;
@@ -265,16 +344,23 @@ h1{
     font-weight: bold;
 }
 
-.img-dog, .img-cat, .img-nutria{
+.img-dog,
+.img-cat,
+.img-nutria {
     width: 250px;
     height: 250px;
 }
-.img-dog:hover, .img-cat:hover, .img-nutria:hover{
+
+.img-dog:hover,
+.img-cat:hover,
+.img-nutria:hover {
     width: 260px;
     height: 260px;
 }
 
-.btn-none, .btn-hidden, .btn-reset {
+.btn-none,
+.btn-hidden,
+.btn-reset {
     background-color: rgb(202, 202, 221);
     border-radius: 5px;
     text-align: center;
@@ -283,59 +369,67 @@ h1{
     font-size: large;
 }
 
-.btn-none:hover, .btn-hidden:hover, .btn-reset:hover {
+.btn-none:hover,
+.btn-hidden:hover,
+.btn-reset:hover {
     background-color: rgb(128, 128, 129);
 }
+
 
 /*  ********************************************** USING Z-INDEX AND POSITION *********************************** */
 
 .container {
     position: relative;
-  }
-  
-  .black-box {
+}
+
+.black-box {
     position: relative;
     z-index: 1;
     border: 2px solid black;
     height: 100px;
     margin: 30px;
-  }
-  
-  .gray-box {
+}
+
+.gray-box {
     position: absolute;
-    z-index: 3; /* gray box will be above both green and black box */
+    z-index: 3;
+    /* gray box will be above both green and black box */
     background: lightgray;
-    height: 60px;  
+    height: 60px;
     width: 70%;
     left: 50px;
     top: 50px;
-  }
-  
-  .green-box {
+}
+
+.green-box {
     position: absolute;
-    z-index: 2; /* green box will be above black box */
+    z-index: 2;
+    /* green box will be above black box */
     background: lightgreen;
     width: 35%;
     left: 270px;
     top: -15px;
     height: 100px;
-  }
-  
+}
 
 
+/*  ADDING BOX PADDING WITH GRID */
+
+.box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* *************************************************** */
