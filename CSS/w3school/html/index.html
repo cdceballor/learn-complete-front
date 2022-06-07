@@ -170,6 +170,25 @@
                 </div>
             </div>
     </article>
+    <hr>
+
+    <article>
+        <h1>Without Clearfix</h1>
+
+        <p>This image is floated to the right. It is also taller than the element containing it, so it overflows outside of its container:</p>
+
+        <div class="clear-div">
+            <img class="img1" src="../img/dog.webp" alt="Pineapple" width="170" height="170"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+        </div>
+
+        <h1 style="clear:right">With New Modern Clearfix</h1>
+        <p>Add the clearfix hack to the containing element, to fix this problem:</p>
+
+        <div class="clear-div clearfix-2">
+            <img class="img2" src="../img/dog.webp" alt="Pineapple" width="170" height="170"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+        </div>
+    </article>
+    <hr>
     </body>
 
 </html>
