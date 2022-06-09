@@ -1,0 +1,60 @@
+/* PSEUDO CLASSES are to give style to elements depending of an action or event */
+/* 
+Style an element when a user mouses over it
+Style visited and unvisited links differently
+Style an element when it gets focus
+*/
+
+/* Example of a link: */
+
+/* unvisited link */
+a:link {
+    color: red; /* First value */
+  }
+  
+  /* visited link */
+  a:visited {
+    color: yellow; /* When we clicked the link */
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink; /* When the mouse is hover */
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue; /* When the link is selected */
+  }
+
+/* Define actions with display or hidden */
+p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+  }
+  
+  div:hover p {
+    display: block;
+  }
+  
+/* 
+<div>Hover over this div element to show the p element
+  <p>Tada! Here I am!</p>
+</div>
+*/
+
+/* First-child event -> To define a style depending of an element's child */
+
+/* To match the first-children with whole element that contain the tag */
+p i:first-child {
+    color: blue;
+  } 
+
+  /* WE GOING TO SEE PSEUDO ELEMENTS ALSO HERE */
+
+/* 
+The same thing that the pseudo classes but in a specific element given in a specific part of the code 
+We have a very long list: https://www.w3schools.com/css/css_pseudo_elements.asp
+*/
+

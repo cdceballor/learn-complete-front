@@ -1,0 +1,19 @@
+/* OPACITY is to define the opacity of the elements */
+
+img {
+    opacity: 0.5;
+  }
+
+/* Also we can use pseudo classes as a hover to see an effect*/
+img {
+    opacity: 0.5;
+  }
+  
+  img:hover {
+    opacity: 1.0;
+  }
+
+/* Also at the other way, see the image without opacity and give it with hover */
+img:hover {
+    opacity: 0.5;
+  }

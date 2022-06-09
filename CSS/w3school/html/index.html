@@ -10,8 +10,27 @@
     <title>Document</title>
 </head>
 
-<>
-    <article class="background-use">
+<body>
+    <article>
+        <ul>
+            <li><a href="#background-use">Background use</a></li>
+            <li><a href="#text-use">Text use</a></li>
+            <li><a href="#border-use">Border use</a></li>
+            <li><a href="#padding-use">Padding use</a></li>
+            <li><a href="#wandh-use">Wandh use</a></li>
+            <li><a href="#text-use">Text use</a></li>
+            <li><a href="#card-display">Card display</a></li>
+            <li><a href="#z-index-position">Z index position</a></li>
+            <li><a href="#grid">Grid</a></li>
+            <li><a href="#clearfix">Clearfix</a></li>
+            <li><a href="#combinator-use">Combinator use</a></li>
+            <li><a href="#opacity">Opacity</a></li>
+          </ul>
+    </article>
+
+<div style="margin-left:15%;padding:1px 16px;height:1000px;">
+
+    <article id="background-use">
         <h1>Background color:</h1>
         <center>
             <p><strong>We have different ways to use the Background:</strong></p>
@@ -35,7 +54,7 @@
         </div>
     </article>
     <hr>
-    <article class="border-use">
+    <article id="border-use">
         <h1> Border </h1>
         <center>
             <p><strong>We have different ways to use the borders:</strong></p>
@@ -56,7 +75,7 @@
         </div>
     </article>
     <hr>
-    <article class="padding-use">
+    <article id="padding-use">
         <h1>Padding</h1>
         <center>
             <p><strong>We have different ways to use the padding:</strong></p>
@@ -76,7 +95,7 @@
         </div>
     </article>
     <hr>
-    <article class="wandh-use">
+    <article id="wandh-use">
         <h1>Width & height</h1>
         <center>
             <p><strong>We have different ways to width and the height: we going to use a general height equal to 100px,
@@ -100,7 +119,7 @@
         </div>
     </article>
     <hr>
-    <article class="text-use">
+    <article id="text-use">
         <h1>Text</h1>
         <center>
             <p><strong>We have different ways to use the text:</strong></p>
@@ -135,7 +154,7 @@
         </div>
     </article>
     <hr>
-    <article class="card-display">
+    <article id="card-display">
         <div class="card-none">
             <p class="text-none">Display:none</p>
             <img class="img-dog" src="../img/dog.webp" alt="dogs">
@@ -153,7 +172,7 @@
         </div>
     </article>
     <hr>
-    <article class="z-index-position">
+    <article id="z-index-position">
         <h1>Z index</h1>
         <center>
             <p><strong>Using index:</strong></p>
@@ -164,7 +183,7 @@
             <div class="green-box">Green box (z-index: 2)</div>
         </div>
     </article>
-    <article>
+    <article id="grid">
         <h1>Grid of Boxes</h2>
             <center>
                 <p>Float boxes side by side:</p>
@@ -183,7 +202,7 @@
             </div>
     </article>
     <hr>
-    <article>
+    <article id="clearfix">
         <h1>Without Clearfix</h1>
 
         <p>This image is floated to the right. It is also taller than the element containing it, so it overflows outside
@@ -203,7 +222,7 @@
         </div>
     </article>
     <hr>
-    <article class="combinator-use">
+    <article id="combinator-use">
         <h1>Combinators</h1>
         <center>
             <p><strong> Is used to merge or join classes or styles depending of the needed </strong></p>
@@ -260,6 +279,31 @@
         </div>
         <hr>
     </article>
-    </body>
+    <article id="#opacity">
+        <h1>Opacity</h1>
+        <center>
+            <p><strong>The opacity property sets the transparency of an element. The opacity value is a number between 0.0 and 1.0.
+                    The default value is 1.0 (fully opaque).</strong></p>
+        </center>
+        <div class="opacity-container">
+            <div class="opacity-box-mid">
+                <p>Opacity: 0.5</p>
+            </div>
+            <div class="opacity-box-hight">
+                <p>Opacity: 0.8</p>
+            </div>
+            <div class="opacity-box-total">
+                <p>Opacity: 1.0</p>
+            </div>
+        </div>
+        <div class="background">
+            <div class="transbox">
+              <p>This is some text that is placed in the transparent box.</p>
+            </div>
+          </div>
+    </article>
+    <hr>
+    </div>    
+</body>
 
 </html>
