@@ -1,0 +1,22 @@
+
+/* *************************** ADVANCED CONCEPTS *************************** */
+
+/* 
+    SPECIFICITY
+This is a complex concept 'because we try the order of the elements with the styles, so, depend of the priority of the styles 
+that are inside of a specific element, there are some rules to define what style is applied first and what style change or override the other
+
+https://www.w3schools.com/css/css_specificity.asp 
+*/
+
+ /* 
+    !IMPORTANT
+To override elements that have been defined before
+
+https://www.w3schools.com/css/css_important.asp
+ */
+
+ /* 
+    MATCH
+To calculate something, use calc(values) -> something so specific  
+  */

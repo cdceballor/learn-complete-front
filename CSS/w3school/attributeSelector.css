@@ -1,0 +1,13 @@
+/* Give specific styles to specific elements with the attributes */
+a[target] {
+    background-color: yellow; /* yellow background only to the a tags that have the attribute target */
+  }
+
+  /* Also we can work with attribute that contain or will be: 
+    equals to a value or different (!) 
+    or contain a value (~) 
+    or start with a specific value (^) 
+    or end with a value ($) */
+  a[target="_blank"] {
+    background-color: yellow;
+  }
