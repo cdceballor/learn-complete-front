@@ -1,0 +1,35 @@
+/* CCS gradiant use -> background-image: linear-gradient(direction, color-stop1, color-stop2, ...); */
+
+/* LINEAR GRADIANT */
+.grad{
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(red, yellow); /* Top red, bottom yellow */
+    height: 100vh;
+}
+.grad{
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red , yellow);
+    height: 100vh;
+}
+
+/* RADIAL GRADIANT */
+.grad{
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(red, yellow); /* Top red, bottom yellow */
+    height: 100vh;
+}
+.grad{
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: radial-gradient(red, yellow, green); /* Radial */
+    height: 100vh;
+}
+.grad{
+    background-color: red;
+    background-image: radial-gradient(red 5%, yellow 15%, green 60%); /* Priority with % to the colors */ 
+    height: 100vh;
+}
+.grad{
+    background-color: red;
+    background-image: radial-gradient(circle, red, yellow, green); /* Circle shape */
+    height: 100vh;
+}

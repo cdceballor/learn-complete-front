@@ -1,0 +1,26 @@
+/* Modified different backgrounds */
+.div1 {
+    border: 1px solid black;
+    height: 120px;
+    width: 150px;
+    background: url(img_flwr.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .div2 {
+    border: 1px solid black;
+    height: 120px;
+    width: 150px;
+    background: url(img_flwr.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .div3 {
+    border: 1px solid black;
+    height: 120px;
+    width: 150px;
+    background: url(img_flwr.gif);
+    background-repeat: no-repeat;
+  }
