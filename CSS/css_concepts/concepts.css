@@ -1,0 +1,35 @@
+/* ******************************************************** 
+COMBINATORS are relationship between the selectors in css 
+******************************************************** */
+
+/* 
+descendant selector (space) -> All the elements that are descendants of the element that matches the selector.
+child selector (>) -> The child selector selects all elements that are the children of a specified element.
+adjacent sibling selector (+) -> The adjacent sibling selector selects all elements that are immediately preceded by the specified element.
+general sibling selector (~) -> The general sibling selector selects all elements that are preceded by the specified element.
+*/
+
+/* ******************************************************** 
+SPECIFICITY is the number of selectors in a css rule 
+******************************************************** */
+
+/* 
+Order: more priority to less priority
+inline -> <div style={"color:blue"}></div>                      0
+ids -> <div id="id"></div>                                      1
+classes, pseudo-classes and attributes ->                       2
+element, pseudo-elements -> <div></div>                         3
+*/
+
+/* ******************************************************** 
+POSITION the position  
+******************************************************** */
+
+/* 
+position: fixed: The element is fixed at its position in the document, don't scroll and don't move, and we 
+            can use top, left, right and bottom to position the element.
+position: relative: Define the position but doesn't fixed or exactly.
+position: absolute: Position of the element in an absolute way, we use the left:0, top:0, right:0 or bottom:0 
+            to move absolute the element, to corner; the corner is depending of the element, if we have an element, we can 
+            use other element with position:absolute to move to the corner of the first element
+*/
