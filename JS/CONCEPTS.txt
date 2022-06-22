@@ -21,10 +21,8 @@ Transform syntax
 Polyfill features that are missing in your target environment (through a third-party polyfill such as core-js)
 Source code transformations (codemods)
 And more! (check out these videos for inspiration)
-<<<<<<< HEAD
 --------------------------------------------------------- LOOPS:----------------------------------------------
 While: you can use while as a whatever programming language with the same syntax
-=======
 
 --------------------------------------------------------- JS:----------------------------------------------
 Define the function before tu used
@@ -44,4 +42,3 @@ Events:
     button -> <button alert("click");></button>
     document -> document.addEventListener("click", myFunction, false)
     element.event -> With a hardest way
->>>>>>> 26b508a1ed07b02dd0b0c3f506517b0dd3323809
