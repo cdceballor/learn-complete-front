@@ -1,0 +1,38 @@
+/* Add your css styles here */
+
+.group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.colum {
+    flex-grow: 0.25;
+    border: 1px solid;
+    height: 200px;
+    background-color: red;
+}
+
+.colum-inside {
+    column-count: 4;
+    column-gap: 10px;
+}
+
+.colum-inside-inside {
+    border: 1px solid black;
+    width: 40px;
+    height: 80px;
+    background-color: white;
+}
+
+@media (max-width: 720px) {
+    .colum {
+        width: calc(50% - 2px)
+    }
+}
+
+@media (max-width: 360px) {
+    .colum {
+        width: calc(100% - 2px)
+    }
+}
